@@ -6,20 +6,20 @@ An agentic AI-powered consumer companion engineered to eliminate marketplace dat
 
 ## 🚀 Core Features
 
-- **Multi-Merchant Data Fusion:** Aggregates and normalizes raw product catalogs, pricing sheets, and specification tables side-by-side from Amazon, eBay, and Walmart into a unified matrix view [11.1].
-- **Heuristic Review Integrity Auditor:** Runs localized, low-latency Python regular expression (`regex`) token scans to isolate character word-frequency repetitions, instantly exposing automated fake bot review chains offline [11.3].
-- **Statistical Market Volatility Predictor:** Computes real-time Standard Deviations over dynamic cross-platform retail price variations to generate automated buying velocity flags (**Buy Now** vs. **Wait**) [11.3].
+- **Multi-Merchant Data Fusion:** Aggregates and normalizes raw product catalogs, pricing sheets, and specification tables side-by-side from Amazon, eBay, and Walmart into a unified matrix view.
+- **Heuristic Review Integrity Auditor:** Runs localized, low-latency Python regular expression (`regex`) token scans to isolate character word-frequency repetitions, instantly exposing automated fake bot review chains offline.
+- **Statistical Market Volatility Predictor:** Computes real-time Standard Deviations over dynamic cross-platform retail price variations to generate automated buying velocity flags (**Buy Now** vs. **Wait**).
 - **Eco-Footprint Tracking Tool:** Dynamically calculates an objective product sustainability index scale (0-10) using fabric composition strings and component resource data.
-- **Cognitive Multi-Agent Orchestration:** Establishes secure cloud connections to route structured prompt vector templates through the enterprise **Meta Llama-3.3-70B-Instruct model** via authenticated **watsonx.ai Studio** nodes to synthesize actionable 3-sentence buying summaries [11.2].
+- **Cognitive Multi-Agent Orchestration:** Establishes secure cloud connections to route structured prompt vector templates through the enterprise **Meta Llama-3.3-70B-Instruct model** via authenticated **watsonx.ai Studio** nodes to synthesize actionable 3-sentence buying summaries.
 
 ---
 
 ## 🛠️ Technology Stack & Infrastructure
 
-- **Frontend Interface Framework:** Streamlit (UI Dashboard Canvas & Sidebar Control Inputs) [11.4]
-- **Cognitive Core Reasoning Model:** `meta-llama/llama-3-3-70b-instruct` (via IBM watsonx Cloud SDK) [11.2]
-- **Cloud Computing Gateway Backbone:** IBM Cloud (Dallas Server Node) with IAM Security Token Validation [11.2]
-- **Data Structuring Environment:** Python 3.10+ Native Calculation Arrays (`re`, `math`) [11.3]
+- **Frontend Interface Framework:** Streamlit (UI Dashboard Canvas & Sidebar Control Inputs)
+- **Cognitive Core Reasoning Model:** `meta-llama/llama-3-3-70b-instruct` (via IBM watsonx Cloud SDK)
+- **Cloud Computing Gateway Backbone:** IBM Cloud (Dallas Server Node) with IAM Security Token Validation
+- **Data Structuring Environment:** Python 3.10+ Native Calculation Arrays (`re`, `math`)
 - **Credential Decoupling Storage:** `python-dotenv` (Encapsulated Project Environment Files)
 
 ---
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 Create a hidden `.env` file in the root directory layout workspace containing your authenticated IBM credentials parameters:
 ```env
 WATSONX_APIKEY="your_secure_ibm_cloud_platform_api_key"
-PROJECT_ID="de474e88-6096-4866-9c27-4a70e0be2555"
+PROJECT_ID="your_ibm_watsonx_project_id"
 ```
 
 ### 4. Run the Streamlit Dashboard System Application
